@@ -1,0 +1,114 @@
+body{
+    margin: 0 ;
+}
+.SpacexLogo{
+    width: 210px;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    padding: 25px 20px;
+}
+
+
+.left-area{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    font-family: Arial,Verdana, sans-serif;
+    font-weight: bold;
+}
+.right-area{
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+    font-family: Arial,Verdana, sans-serif;
+    font-weight: 700;
+}
+.hamburger-menu{
+    width: 15px;
+    background-color: transparent;
+    margin-right: 30px;
+}
+
+
+/* ----------------------------------------backround image, middle div------------------------ */
+
+.bg{
+    width: 100%;
+}
+
+h1{
+    margin:0;
+    color: white;
+    font-size: 40px;
+    font-family:Arial, Verdana, sans-serif;
+}
+h4{
+    margin:0;
+    color: white;
+    font-size: 18px;
+    font-family:Arial, Verdana, sans-serif;
+}
+
+.bgimages{
+    position:relative;
+    margin:0 0 0 0;
+    padding: 0;
+    margin-bottom: -4px;
+
+}
+
+.mid-section{
+    position: absolute;
+    left: 30px;
+    top: 55%;
+}
+
+.mid-button{
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    color:white;
+    height: 60px;
+    width: 150px;
+    border-color: white;
+    
+
+}
+
+/* /*-----------------------------footer section -----------------------------------*/
+ .footer{
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    font-family: Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+ }
+
+ .copyright{
+    font-weight:100;
+ }
+
